@@ -5,7 +5,7 @@ import plotly.express as px
 # Lê o arquivo CSV e armazena no DataFrame
 # car_data = pd.read_csv('vehicles.csv')
 car_data = pd.read_csv(
-    r'C:\Users\vivasetubalserver\Documents\MyProjects\my_project\notebooks\vehicles.csv')
+    r"vehicles.csv")
 
 
 hist_button = st.button('Criar histograma')  # criar um botão
@@ -21,7 +21,6 @@ if hist_button:  # se o botão for clicado
     # exibir um gráfico Plotly interativo
     st.plotly_chart(fig, use_container_width=True)
 
-    import streamlit as st
 
 # criar uma caixa de seleção
 build_histogram = st.checkbox('Criar um histograma')
