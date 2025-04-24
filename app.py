@@ -7,7 +7,7 @@ import plotly.express as px
 car_data = pd.read_csv(
     r"vehicles.csv")
 
-
+st.header("Projeto Sprint 5")
 hist_button = st.button('Criar histograma')  # criar um botão
 
 if hist_button:  # se o botão for clicado
