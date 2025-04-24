@@ -8,3 +8,6 @@ Funcionalidades
     Gráfico de Dispersão: Ao clicar no botão "Criar gráfico de dispersão", o app gera um gráfico de dispersão que relaciona o ano do modelo com o preço dos veículos, ajudando a entender como o preço varia conforme o ano de fabricação.
 
     
+    para acessar ao streamlit utilize o link > http://localhost:8501/
+
+    para acessar ao github utilize o link > https://github.com/Bcrespo1982/my_project
